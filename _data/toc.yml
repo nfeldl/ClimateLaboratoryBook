@@ -37,7 +37,6 @@
 - url: /courseware/climate-system-models
 - url: /courseware/introducing-cesm
 - url: /courseware/climlab-intro
-- url: /courseware/sensitivity-feedback
 - url: /courseware/radiation
 - url: /courseware/elementary-greenhouse
   sections:
@@ -47,12 +46,17 @@
 - url: /courseware/spectral-bands
 - url: /courseware/radeq
 - url: /courseware/rce
+- url: /courseware/sensitivity-feedback
+  sections:
+    - url: /courseware/advanced-sensitivity-feedback
 - url: /courseware/transient-cesm
 - url: /courseware/transient-toy
 - url: /courseware/clouds
 - url: /courseware/insolation
 - url: /courseware/orbital
 - url: /courseware/heat-transport
+  sections:
+    - url: /courseware/advanced-heat-transport
 - url: /courseware/one-dim-ebm
 - url: /courseware/seasonal-cycle
 - url: /courseware/numerical-diffusion
@@ -75,7 +79,12 @@
     - url: /courseware/assignment-cesm-control-hints
 - url: /courseware/assignment-simple-clouds
   not_numbered: true
-
+- url: /courseware/assignment-rcm-feedback
+  not_numbered: true
+- url: /courseware/assignment-cesm-climate-change
+  not_numbered: true
+- url: /courseware/assignment-insolation-orbit
+  not_numbered: true
 
 - divider: true
 - url: /references
